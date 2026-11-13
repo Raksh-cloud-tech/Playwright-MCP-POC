@@ -1,0 +1,22 @@
+# Dependencies
+node_modules/
+
+# Playwright output
+test-results/
+playwright-report/
+blob-report/
+reports/
+playwright/.cache/
+
+# Local configuration and secrets
+.env
+.env.*
+!.env.example
+
+# Saved auth state
+.auth/
+
+# Logs and OS files
+*.log
+.DS_Store
+Thumbs.db
